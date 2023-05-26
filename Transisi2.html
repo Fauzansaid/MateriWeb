@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Transition</title>
+    <style>
+        .parent{
+            width: 200px; height: 200px; background-color: rgb(233, 144, 0); margin: 100px auto;
+        }
+         .efekTransisi{
+            width: 200px; height: 200px; line-height: 200px;
+            text-align: center; font-size: 3em; background-color: rgb(104, 220, 235);
+            color: rgb(202, 71, 71); border-radius: 5px; margin: 100px auto;
+            transition-duration: 2s;
+            transition-property: transform;
+        }
+        .efekTransisi:hover{
+           
+            transform: scale(1.5,1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent"><div class="efekTransisi">Fauzan</div></div>
+</body>
+</html>
